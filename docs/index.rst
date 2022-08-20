@@ -4,8 +4,9 @@ ponderjs-docs
 Documents
 =========
 .. toctree::
-   :maxdepth: 16
-
+   :maxdepth: 2
+   :caption: PonderJS
+   
    ponderjs
    blocks
    misc
