@@ -10,10 +10,13 @@ const start = [0, 1, 0]
 const end = [2, 2, 3]
 const delta = [0.3, 0.3, 0.3]
 const fluidPos = new Vec3(0.5, 1.5, 0.5)
-const potionFluid = Fluid.of("create:potion", { 0Potion: "minecraft:blindness" });
+const potionFluid = Fluid.of("create:potion", { Potion: "minecraft:blindness" });
 ```
 
 ## Simple
+
+<details>
+<summary>Simple</summary>
 
 ```java
 simple(int ticks, ParticleType<?> type, Vec3 pos)
@@ -67,7 +70,13 @@ scene.particles.simple(TICK_LENGTH * 3, "small_flame", [4, 1.5, 0])
 )
 ```
 
+</details>
+
+
 ## Item
+
+<details>
+<summary>Item</summary>
 
 ```java
 item(int ticks, ItemStack item, Vec3 pos)
@@ -84,7 +93,12 @@ scene.particles.item(TICK_LENGTH, "minecraft:diamond_block", start)
     .area(end)
 ```
 
+</details>
+
 ## Block
+
+<details>
+<summary>Block</summary>
 
 ```java
 block(int ticks, BlockState blockState, Vec3 pos)
@@ -100,7 +114,12 @@ scene.particles.block(TICK_LENGTH, "minecraft:diamond_block", start)
     .area(end)
 ```
 
+</details>
+
 ## Dust
+
+<details>
+<summary>Dust</summary>
 
 ```java
 dust(int ticks, Color color, Vec3 pos)
@@ -124,7 +143,12 @@ scene.particles.dust(TICK_LENGTH, "#FF0000", "#0000FF", start)
     .roll(3)
 ```
 
+</details>
+
 ## Fluid
+
+<details>
+<summary>Fluid</summary>
 
 ```java
 fluid(int ticks, FluidStackJS fluid, Vec3 pos)
@@ -147,7 +171,12 @@ scene.particles.fluid(TICK_LENGTH, potionFluid, fluidPos.add([0, 0, 4]))
     .density(5)
 ```
 
+</details>
+
 ## Drip
+
+<details>
+<summary>Drip</summary>
 
 ```java
 drip(int ticks, FluidStackJS fluid, Vec3 pos) 
@@ -166,7 +195,12 @@ scene.particles.drip(TICK_LENGTH, potionFluid, fluidPos.add([2, 0, 4]))
     .density(5);    
 ```
 
+</details>
+
 ## Basin
+
+<details>
+<summary>Basin</summary>
 
 ```java
 basin(int ticks, FluidStackJS fluid, Vec3 pos) 
@@ -189,7 +223,12 @@ scene.particles.basin(TICK_LENGTH, potionFluid, fluidPos.add([4, 0, 4]))
     .density(5)
 ```
 
+</details>
+
 ## RotationIndicator
+
+<details>
+<summary>RotationIndicator</summary>
 
 ```java
 rotationIndicator(int ticks, Vec3 pos, float radius1, float radius2, Direction.Axis axis)
