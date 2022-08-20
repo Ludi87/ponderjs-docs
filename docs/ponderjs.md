@@ -6,15 +6,14 @@
 
 <details open>
 <summary>Creating a Tag</summary>
-<br>
 
 ```js
-public void createTag(String id, ItemStackJS displayItem, String title, String description, IngredientJS ingredient)
+event.createTag(String id, ItemStackJS displayItem, String title, 
+                String description, IngredientJS ingredient)
 ```
 
-<details markdown="1">
-<summary>   Parameters</summary>
-<br>
+<details>
+<summary>Parameters</summary>
 
 Parameter   |   Description     | Example
 ---:        | :---              | :---
@@ -27,22 +26,19 @@ ingredient  |   default item(s) |   ["minecraft:paper", "minecraft:apple", ...]
 </details>
 
 <details>
-<summary>       Example</summary>
+<summary>Example</summary>
 <br>
 
 ```js
-event.createTag(
-    "kubejs:getting_started",   //id
-    "minecraft:paper",          //displayItem
-    "Getting started.",         //title
-    "We ponder now!",           //description
-    [    
-        "minecraft:paper",          //ingredient
-        "minecraft:apple",
-        "minecraft:emerald_block",
-    ]
+event.createTag("kubejs:getting_started", "minecraft:paper", "Getting started.", "We ponder now!", [    
+                    "minecraft:paper",
+                    "minecraft:apple",
+                    "minecraft:emerald_block",
+                ]
 );
 ```
+
+![img](https://github.com/AlmostReliable/ponderjs-forge/wiki/previews/ponder_index.gif)
 
 </details>
 </details>
