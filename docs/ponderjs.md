@@ -15,8 +15,8 @@ Passing an array with three values `[x, y, z]` to a function that requires a sel
 
 If you want to shorthand a selection area you can pass in the following types:
 
-*[x1, y1, z1, x2, y2, z2]
-*[vector1, vector2]
-*[blockPos1, blockPos2]
-*[[x, y, z], [x, y, z]]
+* [x1, y1, z1, x2, y2, z2]
+* [vector1, vector2]
+* [blockPos1, blockPos2]
+* [[x, y, z], [x, y, z]]
 If you dislike the shorthand syntax, you can always use the functions provided in the `util` object in your Ponder scenes. You can read more about it here.
