@@ -1,6 +1,4 @@
-# project-name v0.0.0
-
-## Documents
+# PonderJS
 
 - [Blocks](blocks.md)
   - [Set Blocks](blocks.md#set-blocks)
@@ -33,3 +31,4 @@
   - [Grid](utils.md#grid)
   - [Vector](utils.md#vector)
   - [Selection](utils.md#selection)
+  
