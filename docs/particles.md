@@ -2,7 +2,7 @@
 
 ## Simple
 
-..note::
+.. note::
     Constants for following examples:
 
     const TICK_LENGTH = 20
