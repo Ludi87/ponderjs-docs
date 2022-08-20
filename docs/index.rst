@@ -7,7 +7,7 @@ Documents
    :maxdepth: 2
    :caption: PonderJS
    
-   ponderjs
+   readme
    blocks
    misc
    nbt
