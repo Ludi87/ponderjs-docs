@@ -70,6 +70,8 @@ scene.particles.simple(TICK_LENGTH * 3, "small_flame", [4, 1.5, 0])
 
 </details>
 
+---
+
 ## Item
 
 ```java
@@ -90,6 +92,8 @@ scene.particles.item(TICK_LENGTH, "minecraft:diamond_block", start)
 
 </details>
 
+---
+
 ## Block
 
 ```java
@@ -108,6 +112,8 @@ scene.particles.block(TICK_LENGTH, "minecraft:diamond_block", start)
 ```
 
 </details>
+
+---
 
 ## Dust
 
@@ -136,6 +142,8 @@ scene.particles.dust(TICK_LENGTH, "#FF0000", "#0000FF", start)
 
 </details>
 
+---
+
 ## Fluid
 
 ```java
@@ -162,6 +170,8 @@ scene.particles.fluid(TICK_LENGTH, potionFluid, fluidPos.add([0, 0, 4]))
 
 </details>
 
+---
+
 ## Drip
 
 ```java
@@ -183,6 +193,8 @@ scene.particles.drip(TICK_LENGTH, potionFluid, fluidPos.add([2, 0, 4]))
 ```
 
 </details>
+
+---
 
 ## Basin
 
@@ -210,6 +222,8 @@ scene.particles.basin(TICK_LENGTH, potionFluid, fluidPos.add([4, 0, 4]))
 
 </details>
 
+---
+
 ## RotationIndicator
 
 ```java
@@ -219,13 +233,13 @@ rotationIndicator(int ticks, Vec3 pos, float radius1, float radius2, Direction.A
 <details>
 <summary>Example:</summary>
 
+* The 1 is the first radius, the 0.5 is the second radius.
+* The last argument is the axis "X", "Y" or "Z".
+
 ```js
 scene.particles.rotationIndicator(TICK_LENGTH, [2.5, 1.5, 2.5], 1, 0.5, "Z")
     .rotationSpeed(4)
     .color("#FF0000");
 ```
-
-* The 1 is the first radius, the 0.5 is the second radius.
-* The last argument is the axis "X", "Y" or "Z".
 
 </details>

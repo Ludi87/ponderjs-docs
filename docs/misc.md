@@ -2,21 +2,23 @@
 
 ## Idle
 
+`idle(ticks)` or `idleSeconds(seconds)` is used to wait for a certain amount of time.
+
 ```java
 scene.idle(ticks);
 scene.idleSeconds(seconds)
 ```
 
-`idle(ticks)` or `idleSeconds(seconds)` is used to wait for a certain amount of time.
+## Create Entity
+
+`.createEntity()` returns an entity link from Create which will be used as reference in the future.
+`[x, y, z]` is the position, but any KubeJS way to represent a position can be used.
 
 ```java
 scene.world.createEntity(EntityType<?> entityType, Vec3 position, Consumer<EntityJS> consumer)
 ```
 
-## Create Entity
-
-* `.createEntity()` returns an entity link from Create which will be used as reference in the future
-* `[x, y, z]` is the position but any KubeJS way to represent a position can be used.
+---
 
 ## Display Text
 
@@ -26,13 +28,11 @@ scene.text(int duration, String text, Vec3 position)
 scene.text(int duration, ResourceLocation key)
 ```
 
-Optional:
-
-```java
-.colored(Ponderpalette color) // Sets the color of the text.
-.placeNearTarget()            // Places the text closer to the target position.
-.attachKeyFrame()             // Adds a keyframe to the scene.
-```
+| Optional:   | <!-- -->    |
+|-------------|-------------|
+| `.colored(Ponderpalette color)` | Sets the color of the text.
+| `.placeNearTarget()`            | Places  the text closer to the target position.
+| `.attachKeyFrame()`             | Adds a keyframe to the scene.
 
 Example:
 
@@ -43,20 +43,23 @@ scene.text(60, "Example text", [2.0, 2.5, 2.5])
     .attachKeyFrame()
 ```
 
+---
+
 ## Show Controls
 
 ```java
 scene.showControls(int duration, Vec3 pos, Pointing pointing)
 ```
 
-```java
-.leftClick()
-.rightClick()
-.showing(icon)
-.withItem("shears")
-.whileSneaking()
-.whileCTRL()
-```
+| method            | description   |
+|-------------------|---|
+ `.rightClick()`   | Uses mouse right click as icon.
+ `.leftClick()`    | Alternatively, `.leftClick()` can be used
+ `.showing(icon)`  | or `.showing(icon)` for a custom icon.
+ `.withItem(item)` | Defines the item that should be shown with the icon.
+ `.whileSneaking()`| **Optional** Defines that controls are only shown when sneaking.
+ `.whileCTRL()`    | **Optional** Defines that controls are only shown when holding CTRL.
+`.whileSneaking()` and `withCTRL()` can not be used simultaneously.
 
 Example:
 
@@ -66,3 +69,24 @@ scene.showControls(60, [2.5, 3, 2.5], "down")
     .withItem("shears")
     .whileSneaking()
 ```
+
+---
+
+## PonderPalette
+
+Possible values:
+
+```js
+⚪ PonderPalette.WHITE
+⚫ PonderPalette.BLACK
+🔴 PonderPalette.RED
+🟢 PonderPalette.GREEN
+🔵 PonderPalette.BLUE
+```
+
+* PonderPalette.SLOW
+* PonderPalette.MEDIUM
+* PonderPalette.FAST
+
+* PonderPalette.INPUT
+* PonderPalette.OUTPUT
