@@ -2,16 +2,14 @@
 
 ## Simple
 
-Constants for following examples:
+..note::
+    Constants for following examples:
 
-```js
-
-const TICK_LENGTH = 20
-const IDLE_TICK_LENGTH = TICK_LENGTH * 3
-const pos = [4, 1.5, 4]
-const start = [0, 1, 0]
-const end = [2, 2, 3]
-```
+    const TICK_LENGTH = 20
+    const IDLE_TICK_LENGTH = TICK_LENGTH * 3
+    const pos = [4, 1.5, 4]
+    const start = [0, 1, 0]
+    const end = [2, 2, 3]
 
 ```java
 simple(int ticks, ParticleType<?> type, Vec3 pos)
