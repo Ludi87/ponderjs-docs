@@ -2,9 +2,9 @@
 
 ## Getting Started
 
-## Ponder Tags
+### Ponder Tags
 
-### Creating a Tag
+#### Creating a Tag
 
 Parameter   |   Description     | Example
 ---:        | :---              | :---
