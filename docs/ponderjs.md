@@ -1,11 +1,6 @@
-# PonderJS Docs
+# Ponder Tags
 
-## Getting Started
-
-### Ponder Tags
-
-<details open>
-<summary>Creating a Tag</summary>
+## Creating a Tag
 
 ```js
 event.createTag(String id, ItemStackJS displayItem, String title, 
@@ -24,13 +19,12 @@ description |   the description |   "This is a description"
 ingredient  |   default item(s) |   ["minecraft:paper", "minecraft:apple", ...]
 
 </details>
-
+<br>
 <details>
 <summary>Example</summary>
-<br>
 
 ```js
-event.createTag("kubejs:getting_started", "minecraft:paper", "Getting started.", "We ponder now!", [    
+event.createTag("kubejs:getting_started", "minecraft:paper", "Getting started.", "We ponder now!", [
                     "minecraft:paper",
                     "minecraft:apple",
                     "minecraft:emerald_block",
@@ -38,7 +32,8 @@ event.createTag("kubejs:getting_started", "minecraft:paper", "Getting started.",
 );
 ```
 
-![img](https://github.com/AlmostReliable/ponderjs-forge/wiki/previews/ponder_index.gif)
+Preview of the result:
+![Preview of the result](https://github.com/AlmostReliable/ponderjs-forge/wiki/previews/ponder_index.gif)
 
 </details>
 </details>
