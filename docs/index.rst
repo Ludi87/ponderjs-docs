@@ -1,8 +1,6 @@
-ponderjs-docs
+PonderJS
 ------------
 
-Documents
-=========
 .. toctree::
    :maxdepth: 2
    :caption: PonderJS
