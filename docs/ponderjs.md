@@ -51,7 +51,7 @@ scene.world.createEntity(EntityType<?> entityType, Vec3 position, Consumer<Entit
 #### Create Entity
 
 * `.createEntity()` returns an entity link from Create which will be used as reference in the future
-* [x, y, z] is the position but any KubeJS way to represent a position can be used.
+* `[x, y, z]` is the position but any KubeJS way to represent a position can be used.
 
 #### Display Text
 
@@ -249,14 +249,14 @@ util.grid.zero()
 
 #### Vector
 
-Creates a new Vector at x, y, z or at the blockpos.
+Creates a new Vector at `x, y, z` or at the `blockpos`.
 
 ```js
 util.vector.centerOf(x, y, z)
 util.vector.centerOf(blockPos)
 ```
 
-Creates a new vector on top of x, y, z or the blockpos.
+Creates a new vector on top of `x, y, z` or the `blockpos`.
 
 ```js
 util.vector.topOf(x, y, z)
@@ -333,11 +333,13 @@ Examples:
 
 ```js
 scene.particles.simple(TICK_LENGTH, "glow", pos);
+
 scene.particles.simple(TICK_LENGTH, "glow", start)
     .density(10)
     .area(end)
 
 scene.particles.simple(TICK_LENGTH, "small_flame", pos);
+
 scene.particles.simple(TICK_LENGTH, "small_flame", start)
     .density(10)
     .motion([0, 0, -0.1])
@@ -387,6 +389,7 @@ Examples:
 scene.particles.item(TICK_LENGTH, "minecraft:diamond_block", pos)
     .motion([-0.09, 0.3, 0])
     .density(8)
+
 scene.particles.item(TICK_LENGTH, "minecraft:diamond_block", start)
     .area(end)
 ```
@@ -401,6 +404,7 @@ Examples:
 
 ```js
 scene.particles.block(TICK_LENGTH, "minecraft:diamond_block", pos);
+
 scene.particles.block(TICK_LENGTH, "minecraft:diamond_block", start)
     .density(4)
     .area(end)
