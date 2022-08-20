@@ -232,9 +232,9 @@ scene.world.showSection([x1, y1, z1, x2, y2, z2], Facing.DOWN)
 hideSection(Selection selection, Direction fadeOutDirection) 
 ```
 
-#### Utils
+## Utils
 
-## Grid
+#### Grid
 
 Creates a new BlockPos at `x, y, z`.
 
@@ -247,7 +247,7 @@ Creates a new BlockPos at 0, 0, 0.
 util.grid.zero()
 ```
 
-## Vector
+#### Vector
 
 Creates a new Vector at x, y, z or at the blockpos.
 
@@ -270,7 +270,7 @@ util.vector.blockSurface(blockPos, direction)
 util.vector.blockSurface(blockPos, direction, margin)
 ```
 
-## Selection
+#### Selection
 
 Creates a selection of the **whole structure**.
 
@@ -311,7 +311,7 @@ Creates a selection from a **blockPos** with given **size** as vector.
 util.select.cubdoid(blockPos, vector)
 ```
 
-#### Particles
+## Particles
 
 !!! note Constants for examples:
     <br>
@@ -324,7 +324,7 @@ util.select.cubdoid(blockPos, vector)
     const end = [2, 2, 3]
     ```
 
-## Simple
+#### Simple
 
 ```java
 simple(int ticks, ParticleType<?> type, Vec3 pos)
@@ -376,7 +376,7 @@ scene.particles.simple(TICK_LENGTH * 3, "small_flame", [4, 1.5, 0])
 )
 ```
 
-## Item
+#### Item
 
 ```java
 item(int ticks, ItemStack item, Vec3 pos)
@@ -392,7 +392,7 @@ scene.particles.item(TICK_LENGTH, "minecraft:diamond_block", start)
     .area(end)
 ```
 
-## Block
+#### Block
 
 ```java
 block(int ticks, BlockState blockState, Vec3 pos)
@@ -407,7 +407,7 @@ scene.particles.block(TICK_LENGTH, "minecraft:diamond_block", start)
     .area(end)
 ```
 
-## Dust
+#### Dust
 
 ```java
 dust(int ticks, Color color, Vec3 pos)
@@ -440,7 +440,7 @@ scene.particles.dust(TICK_LENGTH, "#FF0000", "#0000FF", start)
     const potionFluid = Fluid.of("create:potion", { Potion: "minecraft:blindness" });
     ```
 
-## Fluid
+#### Fluid
 
 ```java
 fluid(int ticks, FluidStackJS fluid, Vec3 pos)
@@ -463,7 +463,7 @@ scene.particles.fluid(TICK_LENGTH, potionFluid, fluidPos.add([0, 0, 4]))
     .density(5)
 ```
 
-## Drip
+#### Drip
 
 ```java
 drip(int ticks, FluidStackJS fluid, Vec3 pos) 
@@ -482,7 +482,7 @@ scene.particles.drip(TICK_LENGTH, potionFluid, fluidPos.add([2, 0, 4]))
     .density(5);    
 ```
 
-## Basin
+#### Basin
 
 ```java
 basin(int ticks, FluidStackJS fluid, Vec3 pos) 
@@ -505,7 +505,7 @@ scene.particles.basin(TICK_LENGTH, potionFluid, fluidPos.add([4, 0, 4]))
     .density(5)
 ```
 
-## RotationIndicator
+#### RotationIndicator
 
 ```java
 rotationIndicator(int ticks, Vec3 pos, float radius1, float radius2, Direction.Axis axis)
