@@ -1,11 +1,7 @@
-PonderJS
-------------
-
 .. toctree::
    :maxdepth: 2
    :caption: PonderJS
    
-   readme
    blocks
    misc
    nbt
