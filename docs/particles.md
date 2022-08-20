@@ -1,4 +1,4 @@
-# Particles
+# 🌟Particles
 
 **Constants for following examples:**
 
@@ -69,7 +69,6 @@ scene.particles.simple(TICK_LENGTH * 3, "small_flame", [4, 1.5, 0])
 ```
 
 </details>
-
 
 ## Item
 
