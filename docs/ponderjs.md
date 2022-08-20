@@ -7,12 +7,12 @@
 ### Creating a Tag
 
 Parameter | Description
---- | ---
-id:          |the tag name (eg. "kubejs:getting_started")
-displayItem: |the icon (eg. "minecraft:paper")
-title:       |the title
-description: |the description
-ingredient:  |default item(s)
+---: | :---
+id           |the tag name (eg. "kubejs:getting_started")
+displayItem  |the icon (eg. "minecraft:paper")
+title        |the title
+description  |the description
+ingredient   |default item(s)
 
 ```js
 public void createTag(String id, ItemStackJS displayItem, String title, String description, IngredientJS ingredient)
