@@ -72,6 +72,22 @@ scene.showControls(60, [2.5, 3, 2.5], "down")
 
 ---
 
+## Play Sound
+
+```java
+playSound(SoundEvent soundEvent, SoundSource soundSource, float volume, float pitch)
+playSound(SoundEvent soundEvent, float volume)
+playSound(SoundEvent soundEvent)
+```
+
+Example:
+
+```js
+scene.playSound("entity.sheep.shear", 1);
+```
+
+---
+
 ## PonderPalette
 
 Possible values:
