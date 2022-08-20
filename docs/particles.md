@@ -1,6 +1,6 @@
 ## Particles
 
-### Constants for examples
+**Constants for examples**
 
 ```js
 const TICK_LENGTH = 20
@@ -121,7 +121,7 @@ scene.particles.dust(TICK_LENGTH, "#FF0000", "#0000FF", start)
     .roll(3)
 ```
 
-### Constants for following examples
+**Constants for following examples**
 
 ```js
 const delta = [0.3, 0.3, 0.3]
