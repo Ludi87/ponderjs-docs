@@ -313,16 +313,15 @@ util.select.cubdoid(blockPos, vector)
 
 ## Particles
 
-!!! note Constants for examples:
-    <br>
-    
-    ```js
-    const TICK_LENGTH = 20
-    const IDLE_TICK_LENGTH = TICK_LENGTH * 3
-    const pos = [4, 1.5, 4]
-    const start = [0, 1, 0]
-    const end = [2, 2, 3]
-    ```
+### Constants for examples
+
+```js
+const TICK_LENGTH = 20
+const IDLE_TICK_LENGTH = TICK_LENGTH * 3
+const pos = [4, 1.5, 4]
+const start = [0, 1, 0]
+const end = [2, 2, 3]
+```
 
 #### Simple
 
@@ -431,14 +430,13 @@ scene.particles.dust(TICK_LENGTH, "#FF0000", "#0000FF", start)
     .roll(3)
 ```
 
-!!! note Constants for following examples:
-    <br>
-    
-    ```js    
-    const delta = [0.3, 0.3, 0.3]
-    const fluidPos = new Vec3(0.5, 1.5, 0.5)
-    const potionFluid = Fluid.of("create:potion", { Potion: "minecraft:blindness" });
-    ```
+### Constants for following examples
+
+```js
+const delta = [0.3, 0.3, 0.3]
+const fluidPos = new Vec3(0.5, 1.5, 0.5)
+const potionFluid = Fluid.of("create:potion", { Potion: "minecraft:blindness" });
+```
 
 #### Fluid
 
