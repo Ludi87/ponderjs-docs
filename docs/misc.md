@@ -9,7 +9,6 @@ scene.idleSeconds(seconds)
 
 `idle(ticks)` or `idleSeconds(seconds)` is used to wait for a certain amount of time.
 
-
 ```java
 scene.world.createEntity(EntityType<?> entityType, Vec3 position, Consumer<EntityJS> consumer)
 ```
@@ -44,7 +43,7 @@ scene.text(60, "Example text", [2.0, 2.5, 2.5])
     .attachKeyFrame()
 ```
 
-#### Show Controls
+## Show Controls
 
 ```java
 scene.showControls(int duration, Vec3 pos, Pointing pointing)
