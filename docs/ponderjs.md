@@ -13,7 +13,7 @@ public void createTag(String id, ItemStackJS displayItem, String title, String d
 ```
 
 <details markdown="1">
-<summary>Parameters</summary>
+<summary>   Parameters</summary>
 <br>
 
 Parameter   |   Description     | Example
@@ -27,7 +27,7 @@ ingredient  |   default item(s) |   ["minecraft:paper", "minecraft:apple", ...]
 </details>
 
 <details>
-<summary>Example</summary>
+<summary>       Example</summary>
 <br>
 
 ```js
