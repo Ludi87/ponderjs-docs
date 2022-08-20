@@ -15,14 +15,11 @@ const potionFluid = Fluid.of("create:potion", { Potion: "minecraft:blindness" })
 
 ## Simple
 
-<details>
-<summary>Simple</summary>
-
 ```java
 simple(int ticks, ParticleType<?> type, Vec3 pos)
 ```
-
-Examples:
+<details>
+<summary>Examples:</summary>
 
 ```js
 scene.particles.simple(TICK_LENGTH, "glow", pos);
@@ -75,14 +72,12 @@ scene.particles.simple(TICK_LENGTH * 3, "small_flame", [4, 1.5, 0])
 
 ## Item
 
-<details>
-<summary>Item</summary>
-
 ```java
 item(int ticks, ItemStack item, Vec3 pos)
 ```
 
-Examples:
+<details>
+<summary>Examples:</summary>
 
 ```js
 scene.particles.item(TICK_LENGTH, "minecraft:diamond_block", pos)
@@ -97,14 +92,12 @@ scene.particles.item(TICK_LENGTH, "minecraft:diamond_block", start)
 
 ## Block
 
-<details>
-<summary>Block</summary>
-
 ```java
 block(int ticks, BlockState blockState, Vec3 pos)
 ```
 
-Examples:
+<details>
+<summary>Examples:</summary>
 
 ```js
 scene.particles.block(TICK_LENGTH, "minecraft:diamond_block", pos);
@@ -118,15 +111,13 @@ scene.particles.block(TICK_LENGTH, "minecraft:diamond_block", start)
 
 ## Dust
 
-<details>
-<summary>Dust</summary>
-
 ```java
 dust(int ticks, Color color, Vec3 pos)
 dust(int ticks, Color fromColor, Color toColor, Vec3 pos)
 ```
 
-Examples:
+<details>
+<summary>Examples:</summary>
 
 ```js
 scene.particles.dust(TICK_LENGTH, "#00FFF0", start)
@@ -147,14 +138,12 @@ scene.particles.dust(TICK_LENGTH, "#FF0000", "#0000FF", start)
 
 ## Fluid
 
-<details>
-<summary>Fluid</summary>
-
 ```java
 fluid(int ticks, FluidStackJS fluid, Vec3 pos)
 ```
 
-Examples:
+<details>
+<summary>Examples:</summary>
 
 ```js
 scene.particles.fluid(TICK_LENGTH, "lava", fluidPos.add([0, 0, 0]))
@@ -175,14 +164,12 @@ scene.particles.fluid(TICK_LENGTH, potionFluid, fluidPos.add([0, 0, 4]))
 
 ## Drip
 
-<details>
-<summary>Drip</summary>
-
 ```java
 drip(int ticks, FluidStackJS fluid, Vec3 pos) 
 ```
 
-Examples:
+<details>
+<summary>Examples:</summary>
 
 ```js
 scene.particles.drip(TICK_LENGTH, "lava", fluidPos.add([2, 0, 0]))
@@ -199,14 +186,12 @@ scene.particles.drip(TICK_LENGTH, potionFluid, fluidPos.add([2, 0, 4]))
 
 ## Basin
 
-<details>
-<summary>Basin</summary>
-
 ```java
 basin(int ticks, FluidStackJS fluid, Vec3 pos) 
 ```
 
-Examples:
+<details>
+<summary>Examples:</summary>
 
 ```js
 scene.particles.basin(TICK_LENGTH, "lava", fluidPos.add([4, 0, 0]))
@@ -227,14 +212,12 @@ scene.particles.basin(TICK_LENGTH, potionFluid, fluidPos.add([4, 0, 4]))
 
 ## RotationIndicator
 
-<details>
-<summary>RotationIndicator</summary>
-
 ```java
 rotationIndicator(int ticks, Vec3 pos, float radius1, float radius2, Direction.Axis axis)
 ```
 
-Example:
+<details>
+<summary>Example:</summary>
 
 ```js
 scene.particles.rotationIndicator(TICK_LENGTH, [2.5, 1.5, 2.5], 1, 0.5, "Z")
@@ -244,3 +227,5 @@ scene.particles.rotationIndicator(TICK_LENGTH, [2.5, 1.5, 2.5], 1, 0.5, "Z")
 
 * The 1 is the first radius, the 0.5 is the second radius.
 * The last argument is the axis "X", "Y" or "Z".
+
+</details>
