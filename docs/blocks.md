@@ -1,6 +1,6 @@
-## Set/Replace/Modify Blocks
+# Set/Replace/Modify Blocks
 
-#### Set Blocks
+## Set Blocks
 
 ```java
 setBlock(BlockPos pos, BlockState blockState, boolean spawnParticles)
@@ -26,7 +26,7 @@ scene.world.setBlock(
     false);
 ```
 
-#### Replace Blocks
+## Replace Blocks
 
 ```java
 replaceBlocks(Selection selection, BlockState state, boolean spawnParticles)

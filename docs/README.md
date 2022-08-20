@@ -1,6 +1,35 @@
 # project-name v0.0.0
 
-Documents
---------
+## Documents
 
-* [PonderJS](ponderjs.md)
+- [Blocks](blocks.md)
+  - [Set Blocks](blocks.md#set-blocks)
+  - [Replace Blocks](blocks.md#replace-blocks)
+  - [Modify Blocks](blocks.md#modify-blocks)
+- [Misc](misc.md)
+  - [Idle](misc.md#idle)
+  - [Create Entity](misc.md#create-entity)
+  - [Display Text](misc.md#display-text)
+  - [Show Controls](misc.md#show-controls)
+- [Block NBT](nbt.md)
+
+- [Particles](particles.md)
+  - [Simple](particles.md#simple)
+  - [Item](particles.md#item)
+  - [Block](particles.md#block)
+  - [Dust](particles.md#dust)
+  - [Fluid](particles.md#fluid)
+  - [Drip](particles.md#drip)
+  - [Basin](particles.md#basin)
+  - [RotationIndicator](particles.md#rotationindicator)
+- [Sections](sections.md)
+  - [Show Section](sections.md#showsection)
+  - [Hide Section](sections.md#hidesection)
+- [Structure Functions](structure_functions.md)
+  - [Show Structure](structure_functions.md#show-structure)
+  - [Show Baseplate](structure_functions.md#show-baseplate)
+  - [Encapsulate Bounds](structure_functions.md#encapsulate-bounds)
+- [Utils](utils.md)
+  - [Grid](utils.md#grid)
+  - [Vector](utils.md#vector)
+  - [Selection](utils.md#selection)

@@ -1,6 +1,6 @@
-## Sections
+# Sections
 
-#### showSection
+## showSection
 
 ```java
 showSection(Selection selection, Direction fadeInDirection)
@@ -12,14 +12,15 @@ showSectionAndMerge(Selection selection, Direction fadeInDirection, ElementLink<
 
 * **Remember**: You don't need to use `[x, y, z]` syntax. You can also pass a `vector` or a `blockpos`.
 
-Example:
+Examples:
 
 ```js
 scene.world.showSection([x, y, z], Facing.DOWN)
+
 scene.world.showSection([x1, y1, z1, x2, y2, z2], Facing.DOWN)
 ```
 
-#### hideSection
+## hideSection
 
 ```java
 hideSection(Selection selection, Direction fadeOutDirection) 

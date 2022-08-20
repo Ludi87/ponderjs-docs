@@ -10,7 +10,7 @@ const start = [0, 1, 0]
 const end = [2, 2, 3]
 const delta = [0.3, 0.3, 0.3]
 const fluidPos = new Vec3(0.5, 1.5, 0.5)
-const potionFluid = Fluid.of("create:potion", { Potion: "minecraft:blindness" });
+const potionFluid = Fluid.of("create:potion", { 0Potion: "minecraft:blindness" });
 ```
 
 ## Simple

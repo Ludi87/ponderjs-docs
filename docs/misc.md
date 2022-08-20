@@ -1,6 +1,6 @@
-## Misc
+# Misc
 
-#### Idle
+## Idle
 
 ```java
 scene.idle(ticks);
@@ -14,12 +14,12 @@ scene.idleSeconds(seconds)
 scene.world.createEntity(EntityType<?> entityType, Vec3 position, Consumer<EntityJS> consumer)
 ```
 
-#### Create Entity
+## Create Entity
 
 * `.createEntity()` returns an entity link from Create which will be used as reference in the future
 * `[x, y, z]` is the position but any KubeJS way to represent a position can be used.
 
-#### Display Text
+## Display Text
 
 ```java
 scene.text(int duration, String text)

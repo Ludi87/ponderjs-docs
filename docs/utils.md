@@ -1,6 +1,6 @@
-## Utils
+# Utils
 
-#### Grid
+## Grid
 
 Creates a new BlockPos at `x, y, z`.
 
@@ -9,11 +9,12 @@ util.grid.at(x, y, z)
 ```
 
 Creates a new BlockPos at 0, 0, 0.
+
 ```js
 util.grid.zero()
 ```
 
-#### Vector
+## Vector
 
 Creates a new Vector at `x, y, z` or at the `blockpos`.
 
@@ -36,7 +37,7 @@ util.vector.blockSurface(blockPos, direction)
 util.vector.blockSurface(blockPos, direction, margin)
 ```
 
-#### Selection
+## Selection
 
 Creates a selection of the **whole structure**.
 
