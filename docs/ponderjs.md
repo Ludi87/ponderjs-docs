@@ -23,6 +23,8 @@ title       |   the title       |   "Getting Started"
 description |   the description |   "This is a description"
 ingredient  |   default item(s) |   ["minecraft:paper", "minecraft:apple", ...]
 
+</details>
+
 <details>
 <summary>Example</summary>
 <br>
@@ -43,4 +45,3 @@ event.createTag(
 
 </details>
 </details>
-
