@@ -6,14 +6,15 @@
 
 ### Creating a Tag
 
+
+|id:          |the tag name (eg. "kubejs:getting_started")
+|displayItem: |the icon (eg. "minecraft:paper")
+|title:       |the title
+|description: |the description
+|ingredient:  |default item(s)
+
+
 ```js
-/**
- * @id          the tag name (eg. "kubejs:getting_started")
- * @displayItem the icon (eg. "minecraft:paper")
- * @title       the title
- * @description the description
- * @ingredient  default item(s)
- * /
 public void createTag(String id, ItemStackJS displayItem, String title, String description, IngredientJS ingredient)
 ```
 
