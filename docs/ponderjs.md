@@ -12,9 +12,10 @@
 public void createTag(String id, ItemStackJS displayItem, String title, String description, IngredientJS ingredient)
 ```
 
-<details>
+<details markdown="1">
 <summary>Parameters</summary>
 <br>
+
 Parameter   |   Description     | Example
 ---:        | :---              | :---
 id          |   the tag name    |   "kubejs:getting_started"
