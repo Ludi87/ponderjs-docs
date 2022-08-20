@@ -19,4 +19,5 @@ If you want to shorthand a selection area you can pass in the following types:
 * `[vector1, vector2]`
 * `[blockPos1, blockPos2]`
 * `[[x, y, z], [x, y, z]]`
+
 If you dislike the shorthand syntax, you can always use the functions provided in the `util` object in your Ponder scenes. You can read more about it here.
