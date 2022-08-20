@@ -2,8 +2,20 @@
 
 ## Getting Started
 
-Before we start, make sure [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs) and [Create](https://www.curseforge.com/minecraft/mc-mods/create) are installed.
-All PonderJS scripts will be located inside the `client_scripts` folder. If you don't know where to find it, please take a look at the [KubeJS wiki](https://kubejs.com/).
+## Ponder Tags
+
+### Creating a Tag
+
+```js
+/**
+ * @id          the tag name (eg. "kubejs:getting_started")
+ * @displayItem the icon (eg. "minecraft:paper")
+ * @title       the title
+ * @description the description
+ * @ingredient  default item(s)
+ * /
+public void createTag(String id, ItemStackJS displayItem, String title, String description, IngredientJS ingredient)
+```
 
 ## Type Syntax
 
