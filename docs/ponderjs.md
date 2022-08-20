@@ -4,7 +4,9 @@
 
 ### Ponder Tags
 
-#### Creating a Tag
+<details>
+<summary>Creating a Tag</summary>
+<br>
 
 Parameter   |   Description     | Example
 ---:        | :---              | :---
@@ -37,5 +39,5 @@ event.createTag(
 ```
 
 </details>
-
+</details>
 
