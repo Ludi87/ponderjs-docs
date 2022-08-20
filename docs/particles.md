@@ -18,6 +18,7 @@ const potionFluid = Fluid.of("create:potion", { Potion: "minecraft:blindness" })
 ```java
 simple(int ticks, ParticleType<?> type, Vec3 pos)
 ```
+
 <details>
 <summary>Examples:</summary>
 
