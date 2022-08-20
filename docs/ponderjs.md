@@ -18,6 +18,9 @@ ingredient  |   default item(s) |   ["minecraft:paper", "minecraft:apple", ...]
 public void createTag(String id, ItemStackJS displayItem, String title, String description, IngredientJS ingredient)
 ```
 
+<details open>
+<summary>Example</summary>
+
 ```js
 event.createTag(
     "kubejs:getting_started",   //id
@@ -31,3 +34,7 @@ event.createTag(
     ]
 );
 ```
+
+</details>
+
+
