@@ -18,8 +18,9 @@ ingredient  |   default item(s) |   ["minecraft:paper", "minecraft:apple", ...]
 public void createTag(String id, ItemStackJS displayItem, String title, String description, IngredientJS ingredient)
 ```
 
-<details open>
+<details>
 <summary>Example</summary>
+<br>
 
 ```js
 event.createTag(
