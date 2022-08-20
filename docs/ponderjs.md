@@ -18,6 +18,20 @@ ingredient  |   default item(s) |   ["minecraft:paper", "minecraft:apple", ...]
 public void createTag(String id, ItemStackJS displayItem, String title, String description, IngredientJS ingredient)
 ```
 
+```js
+event.createTag(
+    "kubejs:getting_started",   //id
+    "minecraft:paper",          //displayItem
+    "Getting started.",         //title
+    "We ponder now!",           //description
+    [    
+        "minecraft:paper",          //ingredient
+        "minecraft:apple",
+        "minecraft:emerald_block",
+    ]
+);
+```
+
 ## Type Syntax
 
 In PonderJS some functions will need a selection, block position or a vector. The selection is an area between two positions or vectors.
