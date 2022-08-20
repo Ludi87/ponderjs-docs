@@ -39,7 +39,7 @@ scene.world.replaceBlocks(
     false)
 ```
 
-#### Modify Blocks
+## Modify Blocks
 
 ```java
 modifyBlocks(Selection pos, BlockStateFunction function)
