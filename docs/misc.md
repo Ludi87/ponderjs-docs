@@ -59,6 +59,7 @@ scene.showControls(int duration, Vec3 pos, Pointing pointing)
  `.withItem(item)` | Defines the item that should be shown with the icon.
  `.whileSneaking()`| **Optional** Defines that controls are only shown when sneaking.
  `.whileCTRL()`    | **Optional** Defines that controls are only shown when holding CTRL.
+
 `.whileSneaking()` and `withCTRL()` can not be used simultaneously.
 
 Example:
